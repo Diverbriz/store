@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa9f0510-912c-40bd-a47d-97d166090f5e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/brandController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/typeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/models.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/brandRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/deviceRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/typeRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/userRouter.js" afterDir="false" />
+    <list default="true" id="aa9f0510-912c-40bd-a47d-97d166090f5e" name="Changes" comment="First device stare commit">
+      <change afterPath="$PROJECT_DIR$/client/src/components/AppRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Basket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/DevicePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/UserStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/consts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/basketController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/error/ApiError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middleware/authMiddleWare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/basketRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/services/File.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/brandController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/brandController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/deviceController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/deviceController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/typeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/typeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/brandRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/brandRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/deviceRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/deviceRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/typeRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/typeRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/userRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +57,19 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\online-store\server" />
@@ -76,8 +85,30 @@
       <option name="presentableId" value="Default" />
       <updated>1659716069467</updated>
       <workItem from="1659716071113" duration="1109000" />
-      <workItem from="1659717202113" duration="9972000" />
+      <workItem from="1659717202113" duration="11602000" />
+      <workItem from="1659772117028" duration="13126000" />
+      <workItem from="1659800119942" duration="6897000" />
+      <workItem from="1659876335262" duration="11434000" />
+      <workItem from="1659899166098" duration="2249000" />
+      <workItem from="1659945846962" duration="6700000" />
+      <workItem from="1659979756622" duration="10996000" />
+      <workItem from="1660032797530" duration="12978000" />
+      <workItem from="1660072581432" duration="4597000" />
+      <workItem from="1660126296446" duration="10052000" />
+      <workItem from="1660292253025" duration="15298000" />
+      <workItem from="1660323087783" duration="6907000" />
+      <workItem from="1660461251607" duration="1701000" />
+      <workItem from="1660486576109" duration="3162000" />
+      <workItem from="1660562817702" duration="4505000" />
     </task>
+    <task id="LOCAL-00001" summary="First device stare commit">
+      <created>1659728497124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659728497124</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +124,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First device stare commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First device stare commit" />
   </component>
 </project>
